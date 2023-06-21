@@ -61,7 +61,7 @@ function newMap(earthquakes){
   
       var div = L.DomUtil.create('div', 'info legend'),
           grades = [-10, 10, 30, 50, 70, 90],
-          labels = ['<h5>Magnitude</h5>'];
+          labels = ['<h5>Depth</h5>'];
   
       // loop through our density intervals and generate a label with a colored square for each interval
       for (var i = 0; i < grades.length; i++) {
